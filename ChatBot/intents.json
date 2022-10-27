@@ -1,0 +1,38 @@
+{"intents":[
+      {"tag": "greetings",
+       "patterns": ["Hi", "Hello", "How are you", "Is anyone there?", "Good day", "Whats up"],
+       "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help you?"],
+       "context_set": ""
+      },
+      {"tag": "goodbye",
+       "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a Good day", "bye"],
+       "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+       "context_set": ""
+      },
+      {"tag": "age",
+       "patterns": ["how old are you", "how old is Vishal", "What is your age", "how old are you", "age?"],
+       "responses": ["I am 22 years old", "22 years young!"],
+       "context_set": ""
+      },
+      {"tag": "name",
+       "patterns": ["what is your name", "what should I call you", "Whats your name"],
+       "responses": ["You can call me Octo", "I'm Octo ", "My name is Octo"],
+       "context_set": ""
+      },
+      {"tag": "shop",
+       "patterns": ["Id like to buy something", "Whats on the menu?", "What do you recommend?", "could I get something?"],
+       "responses": ["We sell varieties of cookies, just for 2$!", "Chocolate chip cookies are just out of the oven!", "Choco chip, Butter, you name it we got all types of cookies!"],
+       "context_set": ""
+      },
+      {"tag": "hours",
+       "patterns": ["when are you open", "hours of operation", "What are your hours"],
+       "responses": ["We are open 7am to 5pm Monday to Friday"],
+       "context_set": ""
+      },
+      {"tag": "buy",
+       "patterns": ["how can I buy something", "how much is a cookie"],
+       "responses": ["Yes! Cookies are 2$"],
+       "context_set": ""
+      }
+  ]
+}
